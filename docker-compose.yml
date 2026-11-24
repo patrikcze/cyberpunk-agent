@@ -52,7 +52,7 @@ services:
 
   searxng:
     # Pinned release and digest; Dependabot proposes updates.
-    image: docker.io/searxng/searxng:2026.10.27-ef7bae9dd@sha256:64936ab0847aae6494d37edf688ce792b262e8467d48ad844c0bf3f899a45249
+    image: docker.io/searxng/searxng:2026.11.21-c6ee3e9fd@sha256:fc1d81d7e9d04d3c8b3e23c7162feddf5c3d6aecd32e67a56eaabcb8d8747f79
     container_name: llm-agent-searxng
     restart: unless-stopped
     ports:
